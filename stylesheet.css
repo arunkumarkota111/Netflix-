@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.nav-items-center {
+    margin: auto;
+  }
+
+#sectionLandingpage {
+    display: none;
+}
+
+.open_page_userlogos, p {
+    cursor: pointer;
+}
+
+.page_background_color {
+    background-color: black;
+}
+
+.page_background_image{
+    background-image: url("https://i.redd.it/zjgs096khv591.jpg");
+    height: 100vh;
+    background-size: cover;
+    
+}
+.main_heading {
+    font-family: "Roboto";
+    color: white;
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+}
+
+p {
+    color: white;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.button {
+    color: white;
+    background-color: transparent;
+    width: 138px;
+    height: 36px;
+    border-width: 2px;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+
+.custom_button {
+    display: inline-block; /* Makes the button only as wide as the text */
+    color: aliceblue;
+    text-align: center;
+    padding: 5px 10px; /* Adjust padding for proper spacing */
+    border-radius: 5px; /* Optional for rounded corners */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.open_page_userlogos {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.navbar_logo {
+    color: red;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.movie_logos {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.landing_page_movie_headings { 
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px;
+}
